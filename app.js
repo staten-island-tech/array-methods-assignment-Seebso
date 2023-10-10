@@ -13,6 +13,19 @@ const HSR = [
     Rating: "5",
     Affiliation: "Astral Express"
 },
+{
+    Name: "March 7th",
+    Element: "Ice",
+    Path: "Preservation",
+    Rating: "4",
+    Affiliation: "Astral Express"
+},
+
 ];
 // arrow function ()=> auto returns output, this keyword points global.
-HSR.forEach((Name)=> console.log(HSR.Name));
+HSR.forEach((HSR) => console.log(HSR.Name));
+/* const graduated = students.filter((student) => student.graduated === true);
+console.log(graduated); */
+const fil = HSR.filter((HSR)=> Rating>4) [
+    console.log(Rating)
+]
