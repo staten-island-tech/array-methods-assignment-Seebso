@@ -26,6 +26,6 @@ const HSR = [
 HSR.forEach((HSR) => console.log(HSR.Name));
 /* const graduated = students.filter((student) => student.graduated === true);
 console.log(graduated); */
-const fil = HSR.filter((HSR)=> Rating>4) [
-    console.log(Rating)
-]
+Name
+    .filter((HSR)=> Rating>4) 
+    .forEach((Name)=> console.log(Rating));
